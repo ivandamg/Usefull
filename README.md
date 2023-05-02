@@ -13,3 +13,15 @@ Mount drives in linux
 
             mount -t drvfs d: /mnt/d  #if drive is in D
             
+Access cluster
+
+            ssh imateusgonzalez@binfservms01.unibe.ch
+            
+Cluster status 
+            
+            clusterstate.sh
+            
+Change to a working node
+
+            srun --pty --mem-per-cpu=20G /bin/bash
+            
