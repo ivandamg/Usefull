@@ -24,4 +24,7 @@ Cluster status
 Change to a working node
 
             srun --pty --mem-per-cpu=20G /bin/bash
-            
+
+ONe liner split of multifasta files in single fasta
+
+            cat Bravo10MycGenes.fasta | awk '{ if (substr($0, 1, 1)==">") {AMSgenes=(substr($0,2) ".fa")}; print $0 > AMSgenes }'
