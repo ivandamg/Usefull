@@ -1,6 +1,13 @@
 # Usefull
 
-# Docker install and use of prokka
+# Use of environments with Mac M1/M2 install prokka
+
+        CONDA_SUBDIR=osx-64 conda create -n rhizo
+        conda activate rhizo
+        conda config --env --set subdir osx-64
+        conda install -c conda-forge -c bioconda -c defaults prokka
+
+        
 
 Installation
     
