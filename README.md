@@ -7,7 +7,9 @@
         conda config --env --set subdir osx-64
         conda install -c conda-forge -c bioconda -c defaults prokka
 
-        
+        module add Conda/miniconda/latest  
+        conda create --name rhizobia
+        conda activate rhizobia
 
 Installation
     
