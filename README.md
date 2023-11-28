@@ -25,10 +25,16 @@ Mount drives in linux
 Access cluster
 
             ssh imateusgonzalez@binfservms01.unibe.ch
-            
+            ssh imateusgonzalez@login8.hpc.binf.unibe.ch
+                pibu_el8
 Cluster status 
             
             clusterstate.sh
+
+Other partitions to have jobs go quicky
+
+        --qos=24h
+        --partition=pshort
             
 Change to a working node
 
