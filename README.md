@@ -38,7 +38,7 @@ Other partitions to have jobs go quicky
             
 Change to a working node
 
-            srun --pty --mem-per-cpu=20G /bin/bash
+            srun --pty --partition=pibu_el8 --mem-per-cpu=4G /bin/bash
 
 ONe liner split of multifasta files in single fasta
 
